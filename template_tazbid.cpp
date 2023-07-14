@@ -59,16 +59,13 @@ pair<ll,ll> extended_euclidGcd(ll a, ll b) {
     ll x = y1, y=x1-(a/b)*y1;
     return {x, y};
 }
-
 void init_code() {
-
     fastIO;
     #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
 }
-
 //////////////////////             CODE HERE             //////////////////////
 
 void solve(ll t){
